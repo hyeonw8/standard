@@ -1,0 +1,125 @@
+@font-face {
+  font-family: 'KIMM_Bold';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/KIMM_Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Layout.jsx */
+.layout {
+  max-width: 1200px;
+  min-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  font-family: 'KIMM_Bold';
+}
+
+/* Header.jsx */
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+  margin: 0 10px 10px 10px;
+}
+
+.headerText {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* TodoForm.jsx */
+.todoForm { 
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: pink;
+  border-radius: 10px;
+  height: 60px;
+  color: black;
+}
+
+label {
+  font-weight: bold;
+}
+
+.inputTitle, .inputContent {
+  width: 200px;
+  height: 25px;
+  border: none;
+  text-align: center;
+  font-family: 'KIMM_Bold';
+  font-size: 12px;
+}
+
+.addButton {
+  height: 40px;
+  margin-left: 10px;
+}
+
+/* TodoList.jsx */
+.todoList {
+  padding: 10px;
+}
+
+.todoStateTitle {
+  margin: 10px 0 10px 0;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+/* TodoItem.jsx */
+.todoItem {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-left: 10px;
+}
+
+.todoBox {
+  width: 250px;
+  height: 170px;
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.textBox {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.todoTitle {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.todoContent {
+  line-height: 22px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: #495057;
+}
+
+.buttonBox {
+  display:flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+.todoButton {
+  width: 80px;
+}
+
+
